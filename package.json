@@ -1,0 +1,26 @@
+{
+  "name": "vue-google-amap-maps",
+  "version": "0.0.1",
+  "author": "陈哲宇 <1452100100@qq.com>",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "codemirror": "^5.44.0",
+    "vue": "^2.6.6",
+    "vuep": "^0.8.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "uppercamelcase": "^3.0.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
