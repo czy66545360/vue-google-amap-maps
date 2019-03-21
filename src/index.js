@@ -1,6 +1,7 @@
 import './style.css';
 import GA_Map from './packages/Map';
 import {GAMaps, _load} from './GAMaps';
+import './router';
 
 let components = [
   GA_Map
