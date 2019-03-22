@@ -26,8 +26,7 @@
         </div>
     </template>
     <script>
-      import {GAMaps} from './GAMaps'
-    
+      let GAMaps = window.GAMaps
       export default {
         components: {},
         computed: {},
