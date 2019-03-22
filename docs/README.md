@@ -76,21 +76,4 @@
         }
       };
     </script>
-    <style>
-    .box {
-    display: flex;
-    position: fixed;
-    z-index: 300;
-    left: 0;
-    bottom: 0;
-    padding: 12px;
-    }
-    
-    .but {
-    padding: 5px 10px;
-    background: green;
-    color: #FFF;
-    border-radius: 4px;
-    }
-    <style>
 </script>

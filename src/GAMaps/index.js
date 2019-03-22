@@ -111,13 +111,14 @@ class GAMaps_init {
 
 var GAMaps = null;
 
-var _load = function ( opts) {
+var _load = function (opts) {
   let load_state = null;
   if (GAMaps) {
     return GAMaps;
   } else if (!load_state) {
     load_state = true;
     GAMaps = new GAMaps_init({...default_config, ...opts});
+    window.GAMaps = GAMaps;
     return GAMaps;
   }
 };
